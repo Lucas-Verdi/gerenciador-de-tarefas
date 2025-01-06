@@ -1,0 +1,81 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Flexbox para alinhamento do layout */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Estilo do formulário de tarefas */
+.task-form {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Estilo do checkbox */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.styled-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.styled-checkbox:checked {
+  background-color: #4caf50;
+  border: none;
+}
+.checkbox-label {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-item {
+    min-width: 100%;
+  }
+
+  .task-form {
+    width: 100%;
+  }
+}
+
+/* Formatação das imagens do carrossel */
+.carousel-img {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
