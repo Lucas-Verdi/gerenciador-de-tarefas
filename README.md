@@ -7,9 +7,6 @@ Uma aplicação de gerenciamento de tarefas com funcionalidades de criar, ler, a
 - [Instalação](#instalação)
 - [Configuração](#configuração)
 - [Documentação da API](#documentação-da-api)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Recursos
 - Criar, ler, atualizar e excluir tarefas (CRUD).
