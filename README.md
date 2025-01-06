@@ -5,7 +5,6 @@ Uma aplicação de gerenciamento de tarefas com funcionalidades de criar, ler, a
 ## Índice
 - [Recursos](#recursos)
 - [Instalação](#instalação)
-- [Configuração](#configuração)
 - [Documentação da API](#documentação-da-api)
 
 ## Recursos
